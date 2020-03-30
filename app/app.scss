@@ -1,0 +1,36 @@
+@import "~@nativescript/theme/core";
+@import "~@nativescript/theme/blue";
+
+// Place any CSS rules you want to apply on both iOS and Android here.
+// This is where the vast majority of your CSS code goes.
+
+// Font icon class
+.fab {
+    font-family: "Font Awesome 5 Brands", "fa-brands-400";
+    font-weight: 400;
+}
+
+.fas {
+    font-family: "Font Awesome 5 Free", "fa-solid-900";
+    font-weight: 900;
+}
+
+.far {
+    font-family: "Font Awesome 5 Free", "fa-regular-400";
+    font-weight: 400;
+}
+
+Page{
+    background-color: #292929;
+}
+
+
+.aliveBtn-1{
+    margin-top: 10;
+    border-radius: 5%;
+    color: white;
+    font-size: 17em;
+    height: 40;
+    width: 80%;
+    background: linear-gradient(to right, #7131A1,#DB383E);
+}

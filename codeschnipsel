@@ -1,0 +1,19 @@
+<div id="vue">
+  <h2>Option 1</h2> Only one can be selected
+  <ul>
+    <li v-for="item in items" :class="{highlight:item.id == selected}" @click="selected = item.id">{{item.id}}</li>
+  </ul>
+</div>
+
+li:hover {
+  color: red;
+}
+
+li.highlight {
+  background: yellow;
+}
+
+h2 {
+  margin-bottom: 0px;
+}
+

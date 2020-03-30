@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "893080970690",
+    "firebase_url": "https://aliveapp-b1ca9.firebaseio.com",
+    "project_id": "aliveapp-b1ca9",
+    "storage_bucket": "aliveapp-b1ca9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893080970690:android:c0a7e3ad953849f662e25b",
+        "android_client_info": {
+          "package_name": "org.nativescript.aliveapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893080970690-d7q2dlqnfefdv8emjb9rtphvt4i83ugt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHZcM9chNCHV75rZWQ3RYE2TZME4NqzwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893080970690-d7q2dlqnfefdv8emjb9rtphvt4i83ugt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "893080970690-a9153m1ngsk9h8fpno3rquc2d175gssh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.nativescript.aliveapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

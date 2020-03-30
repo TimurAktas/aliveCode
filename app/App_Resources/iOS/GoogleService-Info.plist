@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>893080970690-a9153m1ngsk9h8fpno3rquc2d175gssh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.893080970690-a9153m1ngsk9h8fpno3rquc2d175gssh</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBF0kJJn4KQVTPZp3v7uokk_WiVazumbkU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>893080970690</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.nativescript.aliveapp</string>
+	<key>PROJECT_ID</key>
+	<string>aliveapp-b1ca9</string>
+	<key>STORAGE_BUCKET</key>
+	<string>aliveapp-b1ca9.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:893080970690:ios:1e9fa94e0376e78a62e25b</string>
+	<key>DATABASE_URL</key>
+	<string>https://aliveapp-b1ca9.firebaseio.com</string>
+</dict>
+</plist>

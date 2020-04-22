@@ -1,1 +1,16 @@
 node_modules
+platforms
+.update_backup/package-lock.json
+.update_backup/package.json
+.update_backup/webpack.config.js
+.update_backup/hooks/after-prepare/firebase-build-gradle.js
+.update_backup/hooks/after-prepare/firebase-copy-google-services.js
+.update_backup/hooks/after-prepare/firebase-firestore-buildscript.js
+.update_backup/hooks/after-prepare/nativescript-dev-webpack.js
+.update_backup/hooks/after-prepare/nativescript-plugin-firebase.js
+.update_backup/hooks/before-checkForChanges/firebase-copy-google-services.js
+.update_backup/hooks/before-checkForChanges/nativescript-core.js
+.update_backup/hooks/before-checkForChanges/nativescript-dev-webpack.js
+.update_backup/hooks/before-checkForChanges/nativescript-vue.js
+.update_backup/hooks/before-prepare/nativescript-plugin-firebase.js
+.update_backup/hooks/before-watch/nativescript-vue.js

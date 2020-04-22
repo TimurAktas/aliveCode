@@ -43,7 +43,7 @@ export default {
             allowExecution: false,
             journeyStarted: false,
             mapView: null,
-            zoom: 20,
+            zoom: 10,
             APIKEY: "AIzaSyAaJYHio6ZGvLKJyRxu8gfeupZIq6L45WY"
         }
     },

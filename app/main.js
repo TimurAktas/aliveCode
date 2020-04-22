@@ -3,7 +3,7 @@ import App from "./App"
 import Login from "./views/Login"
 
 import store from './store/store'
-import * as platform from 'platform'
+import * as platform from 'tns-core-modules/platform'
 
 import DateTimePicker from "nativescript-datetimepicker/vue";
 Vue.use(DateTimePicker);

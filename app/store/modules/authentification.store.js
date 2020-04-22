@@ -23,6 +23,7 @@ const actions = {
                   }
                 })
                 .then(async res => {
+                    console.log("GEFUNDEN WEITERLEITEN")
                     await dispatch('getCurrentUserData', res)
                     resolve()
                 })
@@ -38,6 +39,7 @@ const actions = {
         return new Promise((resolve, reject) =>{
             userDoc.get().then(doc => {
                 if (doc.exists) {
+                    console.log("USER DATEN GEFUNDEN")
                     commit('SET_CURRENTUSER', doc)
                     console.log(`Document data: ${JSON.stringify(doc.data())}`);
                     console.log("CURRENTUSER-STATE: ", state.currentUser)

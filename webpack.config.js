@@ -27,9 +27,6 @@ module.exports = env => {
         throw new Error("You need to provide a target platform!");
     }
 
-    if (module.hot)
-        module.hot.accept()
-
     const platforms = ["ios", "android"];
     const projectRoot = __dirname;
 

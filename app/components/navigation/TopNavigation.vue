@@ -1,5 +1,5 @@
 <template>
-  <GridLayout rows="40,*,*" columns="*" width="100%" height="110" backgroundColor="#343434">
+  <GridLayout rows="40,*,*" columns="*" width="100%" height="110" backgroundColor="#292929">
     <GridLayout rows="*" columns="auto,*,auto" row="0">
       <Label text="Alive" col="0" textWrap="true" />
       <Label text="Dortmund, brackel" col="1" textWrap="true" horizontalAlignment="center" verticalAlignment="center" />

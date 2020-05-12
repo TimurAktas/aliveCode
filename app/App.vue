@@ -1,14 +1,15 @@
 <template>
     <Page actionBarHidden="true" backgroundColor="#292929"> 
-        
         <BottomNavigation selectedIndex="0">
             <!-- The bottom tab UI is created via TabStrip (the containier) and TabStripItem (for each tab)-->
             <TabStrip>
                 <TabStripItem class="first">
                     <Label class="fas" :text="'\uf015'"></Label>
                 </TabStripItem>
-                <TabStripItem class="second">
-                     <Label class="fas" :text="'\uf067'"></Label>
+´   <TabStripItem class="first">
+                    <Label class="fas" :text="'\uf015'"></Label>
+                </TabStripItem>   <TabStripItem class="first">
+                    <Label class="fas" :text="'\uf015'"></Label>
                 </TabStripItem>
                 <TabStripItem class="third">
                     <Label class="fas" :text="'\uf5a0'"></Label>
@@ -19,9 +20,13 @@
             <TabContentItem class="first">
                 <Home />
             </TabContentItem>
-            <TabContentItem class="second">
-                    <Meetcreator />
+                <TabContentItem class="first">
+                <Home />
             </TabContentItem>
+                <TabContentItem class="first">
+                <Home />
+            </TabContentItem>
+
             <TabContentItem class="second">
                 <Map />
             </TabContentItem>
@@ -33,14 +38,12 @@
 import TopNavigation from './components/navigation/TopNavigation'
 import Home from './views/Home'
 import Map from './views/Map'
-import Meetcreator from './views/Meetcreator'
 
 export default {
     components:{
         TopNavigation,
         Home,
         Map,
-        Meetcreator
     },
     computed: {
         message() {
